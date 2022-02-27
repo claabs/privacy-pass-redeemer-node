@@ -1,6 +1,6 @@
 {
   "name": "privacy-pass-redeemer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js module implementing the Privacy Pass protocol",
   "main": "dist/index.js",
   "scripts": {
@@ -28,6 +28,9 @@
   "engines": {
     "node": ">=14"
   },
+  "files": [
+    "dist/src"
+  ],
   "dependencies": {
     "elliptic": "^6.5.4"
   },
