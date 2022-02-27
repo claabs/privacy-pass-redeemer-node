@@ -1,8 +1,9 @@
 {
   "name": "privacy-pass-redeemer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js module implementing the Privacy Pass protocol",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
   "scripts": {
     "test": "jest",
     "test:ci": "jest --coverage",
