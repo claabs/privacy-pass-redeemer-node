@@ -1,7 +1,7 @@
 # privacy-pass-redeemer-node
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/claabs/privacy-pass-node/Unit%20test%20and%20build)
-[![Coverage Status](https://coveralls.io/repos/github/claabs/privacy-pass-node/badge.svg?branch=master)](https://coveralls.io/github/claabs/privacy-pass-node?branch=master)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/claabs/privacy-pass-redeemer-node/Unit%20test%20and%20build)
+[![Coverage Status](https://coveralls.io/repos/github/claabs/privacy-pass-redeemer-node/badge.svg?branch=master)](https://coveralls.io/github/claabs/privacy-pass-redeemer-node?branch=master)
 
 A Node.js port of the [privacypass Python module](https://github.com/SergeBakharev/privacypass). See [its Readme](https://github.com/SergeBakharev/privacypass#readme) for more details on its background.
 
