@@ -97,6 +97,6 @@ describe('Basic redemption', () => {
       },
     };
 
-    expect(() => getRedemptionHeader(token, 'invalid', 'GET')).toThrowError('Invalid URL: invalid');
+    expect(() => getRedemptionHeader(token, 'invalid', 'GET')).toThrowError(/^Invalid URL.*$/);
   });
 });
