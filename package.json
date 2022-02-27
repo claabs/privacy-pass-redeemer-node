@@ -1,0 +1,53 @@
+{
+  "name": "privacy-pass-redeemer",
+  "version": "1.0.0",
+  "description": "A Node.js module implementing the Privacy Pass protocol",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest --coverage",
+    "build": "rimraf dist && tsc",
+    "lint": "tsc --noEmit && eslint ."
+  },
+  "author": {
+    "name": "Charlie Laabs",
+    "url": "https://github.com/claabs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claabs/privacy-pass-redeemer-node.git"
+  },
+  "keywords": [
+    "privacy-pass",
+    "Privacy Pass",
+    "hCaptcha",
+    "Cloudflare",
+    "captcha"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "elliptic": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/elliptic": "^6.4.14",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^14.18.12",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
